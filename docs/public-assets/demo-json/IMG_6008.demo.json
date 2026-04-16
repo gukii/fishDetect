@@ -1,0 +1,263 @@
+{
+  "demoImage": "IMG_6008.jpg",
+  "note": "Original photo is private and not committed. This JSON is a sanitized example.",
+  "imageSize": {
+    "width": 576,
+    "height": 1024
+  },
+  "detector": {
+    "modelId": "IDEA-Research/grounding-dino-base",
+    "segmentationEnabled": true,
+    "segmentExportBackgroundCrop": true,
+    "backgroundCropGradient": true,
+    "backgroundCropGradientGrid": 5,
+    "backgroundCropGradientBlur": 56,
+    "backgroundCropEdgeSoftness": 3.5,
+    "segmentationModelId": "facebook/sam-vit-base",
+    "segmentationMinScore": 0.88,
+    "cutoutFeatherRadius": 0,
+    "cutoutBackgroundRing": 18,
+    "cutoutDecontaminateEdges": true,
+    "device": "mps",
+    "requestedMode": "fast",
+    "cropPadX": 0.2,
+    "cropPadY": 0.1
+  },
+  "generatedOutputRoot": "docs/generated/IMG_6008",
+  "detections": [
+    {
+      "label": "koi carp",
+      "matchedPrompt": "ornamental carp",
+      "confidence": 0.779688,
+      "boundingBox": {
+        "xmin": 38,
+        "ymin": 541,
+        "xmax": 433,
+        "ymax": 863
+      },
+      "cropRegion": {
+        "requestedBox": {
+          "xmin": -41,
+          "ymin": 508,
+          "xmax": 512,
+          "ymax": 896
+        },
+        "sourceBox": {
+          "xmin": 0,
+          "ymin": 508,
+          "xmax": 512,
+          "ymax": 896
+        },
+        "padding": {
+          "horizontalRatioPerSide": 0.2,
+          "verticalRatioPerSide": 0.1
+        },
+        "extendCropCanvas": false,
+        "outputSize": {
+          "width": 512,
+          "height": 388
+        }
+      },
+      "sourcePass": {
+        "variant": "original",
+        "tile": "full",
+        "tileOrigin": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "cropImage": "docs/generated/IMG_6008/crops/IMG_6008__x38_y541_x433_y863.jpg",
+      "segmentation": {
+        "status": "ok",
+        "score": 0.983007,
+        "maskBoundingBox": {
+          "xmin": 40,
+          "ymin": 558,
+          "xmax": 434,
+          "ymax": 856
+        },
+        "foregroundAreaPixels": 33326,
+        "cutoutFeatherRadius": 0,
+        "cutoutEdgeDecontaminated": true,
+        "backgroundCropEdgeSoftness": 3.5,
+        "backgroundColor": {
+          "status": "ok",
+          "ringWidth": 18,
+          "sampledPixelCount": 27583,
+          "filteredPixelCount": 26717,
+          "meanRgb": {
+            "r": 16.81,
+            "g": 70.09,
+            "b": 156.59
+          },
+          "medianRgb": {
+            "r": 13,
+            "g": 74,
+            "b": 170
+          },
+          "recommendedCanvasColor": {
+            "r": 13,
+            "g": 74,
+            "b": 170
+          },
+          "samplingFilter": {
+            "status": "ok",
+            "rawSampledPixelCount": 27583,
+            "filteredPixelCount": 26717,
+            "highlightExcludedPixelCount": 866,
+            "dominantHueFilterApplied": true,
+            "filterProfile": "water_gradient_v1"
+          }
+        },
+        "backgroundCrop": {
+          "status": "ok",
+          "style": "gradient",
+          "fillColorSource": "recommendedCanvasColor",
+          "fallbackColor": {
+            "r": 13,
+            "g": 74,
+            "b": 170
+          },
+          "gradientGrid": 5,
+          "gradientBlurRadius": 56,
+          "gradientSampleCount": 26717,
+          "gradientSamplingFilter": {
+            "status": "ok",
+            "rawSampledPixelCount": 27583,
+            "filteredPixelCount": 26717,
+            "highlightExcludedPixelCount": 866,
+            "dominantHueFilterApplied": true,
+            "filterProfile": "water_gradient_v1"
+          },
+          "requestedPaddingPreserved": true,
+          "outputSize": {
+            "width": 553,
+            "height": 388
+          }
+        },
+        "artifactFiles": {
+          "maskImage": "docs/generated/IMG_6008/masks/IMG_6008__x38_y541_x433_y863__mask.png",
+          "cutoutImage": "docs/generated/IMG_6008/cutouts/IMG_6008__x38_y541_x433_y863__cutout.png",
+          "backgroundCropImage": "docs/generated/IMG_6008/background-crops/IMG_6008__x38_y541_x433_y863__background-crop.jpg"
+        }
+      }
+    },
+    {
+      "label": "koi carp",
+      "matchedPrompt": "ornamental carp",
+      "confidence": 0.70671,
+      "boundingBox": {
+        "xmin": 180,
+        "ymin": 91,
+        "xmax": 360,
+        "ymax": 618
+      },
+      "cropRegion": {
+        "requestedBox": {
+          "xmin": 144,
+          "ymin": 38,
+          "xmax": 396,
+          "ymax": 671
+        },
+        "sourceBox": {
+          "xmin": 144,
+          "ymin": 38,
+          "xmax": 396,
+          "ymax": 671
+        },
+        "padding": {
+          "horizontalRatioPerSide": 0.2,
+          "verticalRatioPerSide": 0.1
+        },
+        "extendCropCanvas": false,
+        "outputSize": {
+          "width": 252,
+          "height": 633
+        }
+      },
+      "sourcePass": {
+        "variant": "original",
+        "tile": "full",
+        "tileOrigin": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "cropImage": "docs/generated/IMG_6008/crops/IMG_6008__x180_y91_x360_y618.jpg",
+      "segmentation": {
+        "status": "ok",
+        "score": 0.984714,
+        "maskBoundingBox": {
+          "xmin": 173,
+          "ymin": 98,
+          "xmax": 361,
+          "ymax": 613
+        },
+        "foregroundAreaPixels": 37244,
+        "cutoutFeatherRadius": 0,
+        "cutoutEdgeDecontaminated": true,
+        "backgroundCropEdgeSoftness": 3.5,
+        "backgroundColor": {
+          "status": "ok",
+          "ringWidth": 18,
+          "sampledPixelCount": 34164,
+          "filteredPixelCount": 33079,
+          "meanRgb": {
+            "r": 64.89,
+            "g": 101.64,
+            "b": 162.1
+          },
+          "medianRgb": {
+            "r": 63,
+            "g": 103,
+            "b": 168
+          },
+          "recommendedCanvasColor": {
+            "r": 63,
+            "g": 103,
+            "b": 168
+          },
+          "samplingFilter": {
+            "status": "ok",
+            "rawSampledPixelCount": 34164,
+            "filteredPixelCount": 33079,
+            "highlightExcludedPixelCount": 1085,
+            "dominantHueFilterApplied": true,
+            "filterProfile": "water_gradient_v1"
+          }
+        },
+        "backgroundCrop": {
+          "status": "ok",
+          "style": "gradient",
+          "fillColorSource": "recommendedCanvasColor",
+          "fallbackColor": {
+            "r": 63,
+            "g": 103,
+            "b": 168
+          },
+          "gradientGrid": 5,
+          "gradientBlurRadius": 56,
+          "gradientSampleCount": 33079,
+          "gradientSamplingFilter": {
+            "status": "ok",
+            "rawSampledPixelCount": 34164,
+            "filteredPixelCount": 33079,
+            "highlightExcludedPixelCount": 1085,
+            "dominantHueFilterApplied": true,
+            "filterProfile": "water_gradient_v1"
+          },
+          "requestedPaddingPreserved": true,
+          "outputSize": {
+            "width": 252,
+            "height": 633
+          }
+        },
+        "artifactFiles": {
+          "maskImage": "docs/generated/IMG_6008/masks/IMG_6008__x180_y91_x360_y618__mask.png",
+          "cutoutImage": "docs/generated/IMG_6008/cutouts/IMG_6008__x180_y91_x360_y618__cutout.png",
+          "backgroundCropImage": "docs/generated/IMG_6008/background-crops/IMG_6008__x180_y91_x360_y618__background-crop.jpg"
+        }
+      }
+    }
+  ]
+}
