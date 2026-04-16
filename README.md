@@ -209,6 +209,18 @@ pnpm detect \
 There is now a docs skeleton in [docs/index.md](/Users/christianstampf/code/ai/fishDetect/docs/index.md:1).
 There is also a checked-in sanitized demo JSON at [docs/public-assets/demo-json/IMG_6008.demo.json](/Users/christianstampf/code/ai/fishDetect/docs/public-assets/demo-json/IMG_6008.demo.json:1).
 
+## Example Output
+
+These examples are derived from `IMG_6008.jpg`. The original source photo is private and is not committed.
+
+Tight crop example:
+
+![IMG_6008 tight crop](docs/public-assets/examples/img-6008-tight-crop.jpg)
+
+Gradient background publishing crop:
+
+![IMG_6008 gradient background crop](docs/public-assets/examples/img-6008-gradient-background-crop.jpg)
+
 Recommended workflow:
 
 1. Generate local example outputs from one representative private image such as `IMG_6008.jpg` into `docs/generated/`

@@ -14,6 +14,18 @@ Only `docs/public-assets/` is intended for committed screenshots or example imag
 
 If you want one representative walkthrough, `IMG_6008.jpg` is a good candidate.
 
+## Example Images
+
+These images are committed derived outputs from `IMG_6008.jpg`, not the original private photo.
+
+Tight crop:
+
+![IMG_6008 tight crop](public-assets/examples/img-6008-tight-crop.jpg)
+
+Gradient background publishing crop:
+
+![IMG_6008 gradient background crop](public-assets/examples/img-6008-gradient-background-crop.jpg)
+
 Suggested examples for docs:
 
 1. Original detection with tight bounding box
