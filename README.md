@@ -68,6 +68,8 @@ pnpm detect --input ./photos --output ./output
 pnpm detect --input ./photos --output ./output --offline
 ```
 
+<img src="docs/public-assets/readme-previews/basic-crop.jpg" alt="Basic crop example output" width="320" />
+
 If offline mode is enabled and the model is not present in the local cache, the script exits with a clear error.
 
 ## Basic Usage
@@ -75,6 +77,8 @@ If offline mode is enabled and the model is not present in the local cache, the 
 ```bash
 pnpm detect --input ./photos --output ./output
 ```
+
+<img src="docs/public-assets/readme-previews/basic-crop.jpg" alt="Basic usage output example" width="320" />
 
 JPG folder, fast path:
 
@@ -88,6 +92,8 @@ pnpm detect \
   --device mps
 ```
 
+<img src="docs/public-assets/readme-previews/basic-crop.jpg" alt="Fast JPG mode output example" width="320" />
+
 JPG folder with segmentation enabled:
 
 ```bash
@@ -100,6 +106,8 @@ pnpm detect \
   --device mps \
   --segment
 ```
+
+<img src="docs/public-assets/readme-previews/segment-cutout-hard.jpg" alt="Segmentation cutout example" width="320" />
 
 JPG folder with softer cutout edges and edge spill cleanup:
 
@@ -118,6 +126,8 @@ pnpm detect \
   --cutout-decontaminate-edges
 ```
 
+<img src="docs/public-assets/readme-previews/segment-cutout-soft.jpg" alt="Softened cutout example" width="320" />
+
 JPG folder with a flattened segmented crop on a sampled uniform background:
 
 ```bash
@@ -135,6 +145,8 @@ pnpm detect \
   --cutout-background-ring 16 \
   --cutout-decontaminate-edges
 ```
+
+<img src="docs/public-assets/readme-previews/background-flat.jpg" alt="Flat background publishing crop example" width="320" />
 
 JPG folder with a softer pasted edge and filtered gradient background:
 
@@ -158,6 +170,8 @@ pnpm detect \
   --cutout-decontaminate-edges
 ```
 
+<img src="docs/public-assets/readme-previews/background-gradient.jpg" alt="Gradient background publishing crop example" width="320" />
+
 HEIC folder, balanced path:
 
 ```bash
@@ -169,6 +183,8 @@ pnpm detect \
   --limit 25 \
   --device mps
 ```
+
+<img src="docs/public-assets/readme-previews/basic-crop.jpg" alt="Balanced HEIC mode output example" width="320" />
 
 Looser crops with synthetic edge extension:
 
@@ -185,6 +201,8 @@ pnpm detect \
   --extend-crop-canvas
 ```
 
+<img src="docs/public-assets/readme-previews/crop-extend-canvas.jpg" alt="Extended canvas crop example" width="320" />
+
 Use a custom model cache directory:
 
 ```bash
@@ -193,6 +211,8 @@ pnpm detect \
   --output ./output \
   --model-cache-dir ./my-model-cache
 ```
+
+<img src="docs/public-assets/readme-previews/basic-crop.jpg" alt="Custom model cache output example" width="320" />
 
 Use a local model directory instead of downloading:
 
@@ -203,6 +223,8 @@ pnpm detect \
   --model /absolute/path/to/local-model \
   --offline
 ```
+
+<img src="docs/public-assets/readme-previews/basic-crop.jpg" alt="Local detector model output example" width="320" />
 
 ## Docs And GitHub Pages
 
@@ -249,6 +271,8 @@ pnpm detect \
   --segment \
   --offline
 ```
+
+<img src="docs/public-assets/readme-previews/segment-cutout-hard.jpg" alt="Local detector and segmentation model output example" width="320" />
 
 ## Parameters
 
